@@ -6,7 +6,7 @@ from PySide6.QtCore import Slot
 
 from utils.multimedia_ui import MediaPlayerWidget
 from reply.run_demo_loop import BackendThread
-from swarm_ag_zero import triage_agent  # 确保 triage_agent 是对象
+from swarm_ag_zero.triage_agent import triage_agent  # 确保 triage_agent 是对象
 
 import os
 import openai
