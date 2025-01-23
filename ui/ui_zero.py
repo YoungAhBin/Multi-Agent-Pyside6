@@ -4,7 +4,7 @@ from PySide6 import  QtGui,QtWidgets
 from PySide6.QtCore import Qt
 from PySide6.QtCore import Slot
 
-from MyPySide6.Media_player import MediaPlayerWidget
+from utils.multimedia_ui import MediaPlayerWidget
 from MyPySide6.reply.swarm_runner import BackendThread
 from swarm_ag_zero import triage_agent  # 确保 triage_agent 是对象
 
