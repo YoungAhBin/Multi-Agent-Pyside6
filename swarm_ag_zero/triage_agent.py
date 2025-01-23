@@ -1,8 +1,8 @@
 # 创建分流代理（Triage Agent）
 from swarm import Agent
-from agents.fabric_agent import fabric_agent
-from agents.rail_agent import rail_agent
-from agents.installation_agent import installation_agent
+from swarm_ag_zero.fabric_agent import fabric_agent
+from swarm_ag_zero.rail_agent import rail_agent
+from swarm_ag_zero.installation_agent import installation_agent
 
 def transfer_back_to_triage():
     """Call this function if a user is asking about a topic that is not handled by the current agent."""
